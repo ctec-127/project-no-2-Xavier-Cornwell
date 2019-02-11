@@ -10,9 +10,9 @@
     <title>Project 2 - Page 1</title>
 </head>
 <body>
-
-
-
+<header><h1>Project 2</h1><p>by Xavier Cornwell</p>
+<p>click on the link below to get started</p>
+<a href="page2.php">HERE</a></header>
 <!-- jQuery -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <!-- Bootstrap JavaScript -->
