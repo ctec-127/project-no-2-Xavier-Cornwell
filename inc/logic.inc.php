@@ -29,3 +29,72 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
     }
     } ?>
 
+
+<?php                
+                if (isset($_GET['font'])){
+                    if ($_GET['font'] == 'open-sans') {        
+?> 
+   <style type = "text/css">
+.hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.png");}
+    </style>
+        <?php
+    }
+    } ?>
+
+
+    <?php                
+                if (isset($_GET['align'])){
+                    if ($_GET['align'] == 'justify') {        
+?> 
+   <style type = "text/css">
+.hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.png");}
+    </style>
+        <?php
+    }
+    } ?>
+
+<?php                
+                if (isset($_GET['text'])){
+                    if ($_GET['text'] == 'no') {        
+?> 
+   <style type = "text/css">
+.hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.png");}
+    </style>
+        <?php
+    }
+    } ?>
+
+    <?php                
+                if (isset($_GET['img'])){
+                    if ($_GET['img'] == 'no') {        
+?> 
+   <style type = "text/css">
+.hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.png");}
+    </style>
+        <?php
+    }
+    } ?>
+
+    <?php                
+                if (isset($_GET['flex'])){
+                    if ($_GET['flex'] == 'no') {        
+?> 
+   <style type = "text/css">
+.hero-image {
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero2.png");}
+    </style>
+        <?php
+    }
+    } ?>
+
+
+
