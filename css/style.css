@@ -6,10 +6,11 @@ body {
     padding: 0;
 }
 
-#flex{
+.flex{
     display:flex;
     justify-content: center;
     flex-wrap:wrap;
+    align-items:flex-end;
 }
 
 body, html {
@@ -39,4 +40,21 @@ body, html {
 
 .card{
     margin:10px;
+    max-height: 500px;
+}
+#footer{
+  width:100%;
+  height:300px;
+  background-color:black;
+  position: relative;
+}
+
+#buttons{
+  clear:both;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }

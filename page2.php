@@ -12,16 +12,11 @@
 ?>
 </head>
 <body>
-<header>
-<div class="hero-image">
-  <div class="hero-text">
-    <h1>THIS IS PHP CLASS</h1>
-    <p>And I AM A STUDENT!!!!</p>
-  </div>
-</div> 
-</header>
+<?php
+require 'inc/header.inc.php';
+?>
 
-<div id="flex">
+<div class="flex">
 <div id="cars">
 <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="img/car1.jpg" alt="Card image cap">
@@ -60,7 +55,15 @@
   </div>
 </div>
 </div>
+<?php include 'inc/cards.inc.php';
+?>
 </div>
+
+<?php
+require 'inc/footer.inc.php';
+?>
+
+
 <!-- jQuery -->
 <script src="js/jquery-3.3.1.min.js"></script>
 <!-- Bootstrap JavaScript -->
